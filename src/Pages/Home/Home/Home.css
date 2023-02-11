@@ -1,0 +1,23 @@
+.homeCom{
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.homeCom::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.homeCom::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.homeCom::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.homeCom::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
